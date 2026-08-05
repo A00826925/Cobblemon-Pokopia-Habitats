@@ -1,6 +1,6 @@
 # Cobblemon-Pokopia-Habitats
 
-Pokemon Pokopia-style habitat spawn mechanics for [Cobblemon](https://cobblemon.com/).\
+Pokemon Pokopia-style habitat spawn mechanics for [Cobblemon](https://cobblemon.com/).
 
 (This is mostly an experiment, hope you find use in it!)
 
