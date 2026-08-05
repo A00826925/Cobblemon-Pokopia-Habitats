@@ -1,6 +1,8 @@
 # Cobblemon-Pokopia-Habitats
 
-Pokemon Pokopia-style habitat spawn mechanics for [Cobblemon](https://cobblemon.com/).
+Pokemon Pokopia-style habitat spawn mechanics for [Cobblemon](https://cobblemon.com/).\
+
+(This is mostly an experiment, hope you find use in it!)
 
 Build a Habitat Scanner and search for habitats for pokemon to live in! Each habitat has its required blocks present to form!
 
