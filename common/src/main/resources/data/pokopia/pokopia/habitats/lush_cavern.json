@@ -1,0 +1,63 @@
+{
+  "name": "Lush Cavern",
+  "default_level": [
+    8,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:lush_caves"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:moss_block",
+      "count": 8
+    },
+    {
+      "key": "lush",
+      "count": 4,
+      "any": [
+        "minecraft:glow_lichen",
+        "minecraft:azalea",
+        "minecraft:flowering_azalea",
+        "minecraft:big_dripleaf",
+        "minecraft:small_dripleaf",
+        "minecraft:hanging_roots"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "oddish",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "tangela",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "paras",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "petilil",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "bulbasaur",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "bounsweet",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

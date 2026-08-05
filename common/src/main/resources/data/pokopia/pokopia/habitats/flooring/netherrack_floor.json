@@ -1,0 +1,25 @@
+{
+  "name": "Netherrack Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:netherrack",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "slugma",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "houndour",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

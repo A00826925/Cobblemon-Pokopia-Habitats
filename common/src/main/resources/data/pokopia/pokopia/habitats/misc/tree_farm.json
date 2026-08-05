@@ -1,0 +1,66 @@
+{
+  "name": "Tree Farm",
+  "default_level": [
+    6,
+    33
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:saplings",
+      "count": 4
+    },
+    {
+      "tag": "minecraft:logs",
+      "count": 4
+    },
+    {
+      "block": "minecraft:composter",
+      "count": 1
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "seedot",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "phantump",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "exeggcute",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "bonsly",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "nuzleaf",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "sudowoodo",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "shiftry",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "trevenant",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

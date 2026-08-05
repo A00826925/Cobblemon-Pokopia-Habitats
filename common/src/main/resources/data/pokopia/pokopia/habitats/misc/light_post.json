@@ -1,0 +1,64 @@
+{
+  "name": "Light Post",
+  "default_level": [
+    6,
+    31
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "light",
+      "count": 3,
+      "any": [
+        "minecraft:lantern",
+        "minecraft:sea_lantern",
+        "minecraft:glowstone",
+        "minecraft:redstone_lamp",
+        "minecraft:shroomlight"
+      ]
+    },
+    {
+      "key": "post",
+      "count": 2,
+      "any": [
+        "#minecraft:wooden_fences",
+        "#minecraft:walls",
+        "minecraft:iron_bars"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "yamper",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "fidough",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "porygon",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "boltund",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dachsbun",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "porygon2",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

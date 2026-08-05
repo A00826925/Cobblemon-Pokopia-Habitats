@@ -1,0 +1,74 @@
+{
+  "name": "Bedroom",
+  "default_level": [
+    8,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "bed",
+      "count": 1,
+      "any": [
+        "#minecraft:beds"
+      ]
+    },
+    {
+      "tag": "minecraft:wool",
+      "count": 3
+    },
+    {
+      "key": "cozy",
+      "count": 1,
+      "any": [
+        "#minecraft:wool_carpets",
+        "minecraft:lantern",
+        "minecraft:chest"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "munna",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "drowzee",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "komala",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "jigglypuff",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "musharna",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "hypno",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "wigglytuff",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "snorlax",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

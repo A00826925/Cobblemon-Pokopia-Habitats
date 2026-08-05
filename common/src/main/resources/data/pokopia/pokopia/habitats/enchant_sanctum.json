@@ -1,0 +1,67 @@
+{
+  "name": "Enchanted Sanctum",
+  "default_level": [
+    12,
+    28
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:enchanting_table",
+      "count": 1
+    },
+    {
+      "block": "minecraft:bookshelf",
+      "count": 6
+    },
+    {
+      "key": "arcane",
+      "count": 2,
+      "any": [
+        "minecraft:lapis_block",
+        "minecraft:amethyst_block",
+        "minecraft:lectern",
+        "#minecraft:candles"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "abra",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "natu",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "ralts",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "elgyem",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "espurr",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "unown",
+      "rarity": "rare",
+      "chance": 0.25
+    },
+    {
+      "pokemon": "munna",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

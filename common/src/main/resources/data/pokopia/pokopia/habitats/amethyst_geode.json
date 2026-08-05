@@ -1,0 +1,53 @@
+{
+  "name": "Amethyst Geode",
+  "default_level": [
+    10,
+    24
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "amethyst",
+      "count": 6,
+      "any": [
+        "minecraft:amethyst_block",
+        "minecraft:budding_amethyst",
+        "minecraft:amethyst_cluster",
+        "minecraft:large_amethyst_bud"
+      ]
+    },
+    {
+      "block": "minecraft:calcite",
+      "count": 4
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "carbink",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "sableye",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "roggenrola",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "nosepass",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "beldum",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

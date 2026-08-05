@@ -1,0 +1,64 @@
+{
+  "name": "Badlands Mesa",
+  "default_level": [
+    12,
+    26
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "#minecraft:is_badlands"
+  ],
+  "blocks": [
+    {
+      "key": "terracotta",
+      "count": 12,
+      "any": [
+        "minecraft:terracotta",
+        "minecraft:white_terracotta",
+        "minecraft:orange_terracotta",
+        "minecraft:yellow_terracotta",
+        "minecraft:brown_terracotta",
+        "minecraft:red_terracotta",
+        "minecraft:light_gray_terracotta"
+      ]
+    },
+    {
+      "block": "minecraft:red_sand",
+      "count": 8
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sandile",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "numel",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "cacnea",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "trapinch",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "hippopotas",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "aron",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

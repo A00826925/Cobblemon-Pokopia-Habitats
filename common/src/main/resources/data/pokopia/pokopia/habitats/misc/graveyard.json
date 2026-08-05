@@ -1,0 +1,101 @@
+{
+  "name": "Graveyard",
+  "default_level": [
+    6,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "grave",
+      "count": 4,
+      "any": [
+        "minecraft:stone_bricks",
+        "minecraft:cobblestone_wall",
+        "minecraft:mossy_cobblestone",
+        "minecraft:polished_andesite",
+        "minecraft:deepslate_bricks",
+        "minecraft:stone_brick_stairs",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_wall",
+		"minecraft:mossy_stone_bricks",
+        "minecraft:mossy_stone_brick_stairs",
+        "minecraft:mossy_stone_brick_slab",
+        "minecraft:mossy_stone_brick_wall"
+      ]
+    },
+    {
+      "key": "decor",
+      "count": 2,
+      "any": [
+        "minecraft:soul_torch",
+        "minecraft:soul_lantern",
+        "minecraft:cobweb",
+        "minecraft:dead_bush",
+        "minecraft:wither_rose",
+		"#minecraft:small_flowers",
+		"#minecraft:signs"
+      ]
+    },
+    {
+      "key": "earth",
+      "count": 3,
+      "any": [
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:podzol",
+        "minecraft:grass_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "gastly",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "duskull",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "phantump",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "shuppet",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "yamask",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "haunter",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dusclops",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "cofagrigus",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "gengar",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

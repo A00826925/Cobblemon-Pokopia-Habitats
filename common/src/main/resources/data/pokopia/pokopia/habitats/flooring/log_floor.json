@@ -1,0 +1,25 @@
+{
+  "name": "Log Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:logs",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "caterpie",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "hoothoot",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

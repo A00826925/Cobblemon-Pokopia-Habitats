@@ -1,0 +1,62 @@
+{
+  "name": "Wheat Farm",
+  "default_level": [
+    3,
+    28
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:wheat",
+      "count": 4
+    },
+    {
+      "block": "minecraft:farmland",
+      "count": 4
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "mareep",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "wooloo",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "pikipek",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "deerling",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "flaaffy",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dubwool",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "sawsbuck",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "torchic",
+      "rarity": "ultra-rare",
+      "chance": 0.15
+    }
+  ]
+}

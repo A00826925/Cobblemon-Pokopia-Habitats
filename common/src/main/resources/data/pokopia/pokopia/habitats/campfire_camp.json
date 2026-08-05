@@ -1,0 +1,66 @@
+{
+  "name": "Campfire Camp",
+  "default_level": [
+    4,
+    14
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "fire",
+      "count": 1,
+      "any": [
+        "minecraft:campfire",
+        "minecraft:soul_campfire"
+      ]
+    },
+    {
+      "tag": "minecraft:logs",
+      "count": 3
+    },
+    {
+      "key": "camp",
+      "count": 2,
+      "any": [
+        "minecraft:white_wool",
+        "minecraft:crafting_table",
+        "minecraft:barrel",
+        "minecraft:lantern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "eevee",
+      "rarity": "common",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "growlithe",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "rockruff",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "cyndaquil",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "fletchling",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "snom",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

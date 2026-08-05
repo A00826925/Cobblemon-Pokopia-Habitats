@@ -1,0 +1,67 @@
+{
+  "name": "Mushroom Isle",
+  "default_level": [
+    8,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:mushroom_fields"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:mycelium",
+      "count": 10
+    },
+    {
+      "key": "shroom_block",
+      "count": 3,
+      "any": [
+        "minecraft:red_mushroom_block",
+        "minecraft:brown_mushroom_block"
+      ]
+    },
+    {
+      "key": "shroom",
+      "count": 2,
+      "any": [
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "paras",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "shroomish",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "foongus",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "morelull",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "breloom",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "parasect",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

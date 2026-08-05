@@ -1,0 +1,25 @@
+{
+  "name": "Wool Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:wool",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "mareep",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "wooloo",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

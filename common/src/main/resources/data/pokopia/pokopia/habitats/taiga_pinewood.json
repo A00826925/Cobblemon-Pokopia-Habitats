@@ -1,0 +1,64 @@
+{
+  "name": "Taiga Pinewood",
+  "default_level": [
+    6,
+    18
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "#minecraft:is_taiga"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:spruce_log",
+      "count": 5
+    },
+    {
+      "block": "minecraft:spruce_leaves",
+      "count": 8
+    },
+    {
+      "key": "berry",
+      "count": 1,
+      "any": [
+        "minecraft:sweet_berry_bush",
+        "minecraft:fern",
+        "minecraft:large_fern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sentret",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "hoothoot",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "teddiursa",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "stantler",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "snover",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "pineco",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

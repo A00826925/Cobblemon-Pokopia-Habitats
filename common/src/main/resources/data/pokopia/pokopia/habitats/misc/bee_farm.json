@@ -1,0 +1,59 @@
+{
+  "name": "Bee Farm",
+  "default_level": [
+    5,
+    30
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "hive",
+      "count": 2,
+      "any": [
+        "minecraft:bee_nest",
+        "minecraft:beehive"
+      ]
+    },
+    {
+      "tag": "minecraft:small_flowers",
+      "count": 4
+    },
+    {
+      "key": "sweet",
+      "count": 1,
+      "any": [
+        "minecraft:honey_block",
+        "minecraft:honeycomb_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "combee",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "cutiefly",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "ribombee",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "butterfree",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "vespiquen",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

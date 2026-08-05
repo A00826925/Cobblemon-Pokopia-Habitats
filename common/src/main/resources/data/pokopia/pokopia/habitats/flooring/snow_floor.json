@@ -1,0 +1,25 @@
+{
+  "name": "Snow Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:snow_block",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "bergmite",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "spheal",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

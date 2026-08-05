@@ -1,0 +1,39 @@
+{
+  "name": "Meadow",
+  "default_level": [
+    3,
+    10
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:grass_block",
+      "count": 8
+    },
+    {
+      "tag": "minecraft:small_flowers",
+      "count": 3
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "caterpie",
+      "rarity": "common",
+      "chance": 0.8
+    },
+    {
+      "pokemon": "pidgey",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "pikachu",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "eevee",
+      "rarity": "rare",
+      "chance": 0.35
+    }
+  ]
+}

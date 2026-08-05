@@ -1,0 +1,52 @@
+{
+  "name": "Pumpkin Patch",
+  "default_level": [
+    6,
+    18
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "pumpkin",
+      "count": 5,
+      "any": [
+        "minecraft:pumpkin",
+        "minecraft:carved_pumpkin",
+        "minecraft:jack_o_lantern"
+      ]
+    },
+    {
+      "block": "minecraft:hay_block",
+      "count": 3
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "pumpkaboo",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "phantump",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "shuppet",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "foongus",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "gourgeist",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

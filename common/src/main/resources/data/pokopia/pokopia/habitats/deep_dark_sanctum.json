@@ -1,0 +1,64 @@
+{
+  "name": "Deep Dark Sanctum",
+  "default_level": [
+    18,
+    34
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "sculk",
+      "count": 8,
+      "any": [
+        "minecraft:sculk",
+        "minecraft:sculk_vein",
+        "minecraft:sculk_catalyst",
+        "minecraft:sculk_sensor",
+        "minecraft:sculk_shrieker"
+      ]
+    },
+    {
+      "block": "minecraft:deepslate",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "duskull",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "golett",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "elgyem",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "zorua",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "absol",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "spiritomb",
+      "rarity": "rare",
+      "chance": 0.15
+    },
+    {
+      "pokemon": "sableye",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

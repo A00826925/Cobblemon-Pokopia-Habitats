@@ -1,0 +1,34 @@
+{
+  "name": "Volcanic Spring",
+  "default_level": [
+    15,
+    30
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:lava",
+      "count": 4
+    },
+    {
+      "block": "minecraft:magma_block",
+      "count": 3
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "growlithe",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "ponyta",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "magmar",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

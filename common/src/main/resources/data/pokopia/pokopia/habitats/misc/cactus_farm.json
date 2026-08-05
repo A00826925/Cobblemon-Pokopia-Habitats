@@ -1,0 +1,71 @@
+{
+  "name": "Cactus Farm",
+  "default_level": [
+    9,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:cactus",
+      "count": 4
+    },
+    {
+      "block": "minecraft:sand",
+      "count": 4
+    },
+    {
+      "key": "arid",
+      "count": 2,
+      "any": [
+        "minecraft:red_sand",
+        "minecraft:sandstone",
+        "minecraft:dead_bush"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "cacnea",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "sandile",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "trapinch",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "maractus",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "krokorok",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "cacturne",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "vibrava",
+      "rarity": "rare",
+      "chance": 0.25
+    },
+    {
+      "pokemon": "flygon",
+      "rarity": "ultra-rare",
+      "chance": 0.15
+    }
+  ]
+}

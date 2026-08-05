@@ -1,0 +1,40 @@
+{
+  "name": "Forest",
+  "default_level": [
+    3,
+    12
+  ],
+  "biomes": ["#minecraft:is_forest"],
+  "blocks": [
+    {
+      "tag": "minecraft:logs",
+      "count": 6
+    },
+    {
+      "tag": "minecraft:leaves",
+      "count": 8
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "weedle",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "caterpie",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "oddish",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "scyther",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

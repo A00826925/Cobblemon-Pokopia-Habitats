@@ -1,0 +1,76 @@
+{
+  "name": "Magma Pool",
+  "default_level": [
+    14,
+    30
+  ],
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:lava",
+      "count": 6
+    },
+    {
+      "key": "hot",
+      "count": 4,
+      "any": [
+        "minecraft:magma_block",
+        "minecraft:obsidian",
+        "minecraft:blackstone",
+        "minecraft:basalt"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "slugma",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "magby",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "numel",
+      "rarity": "uncommon",
+      "chance": 0.45,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "pokemon": "ponyta",
+      "rarity": "uncommon",
+      "chance": 0.4,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "pokemon": "houndour",
+      "rarity": "uncommon",
+      "chance": 0.45,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "pokemon": "salandit",
+      "rarity": "rare",
+      "chance": 0.3,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "pokemon": "magcargo",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

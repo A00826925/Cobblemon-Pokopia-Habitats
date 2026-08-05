@@ -1,0 +1,35 @@
+{
+  "name": "Pond",
+  "default_level": [
+    5,
+    15
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:water",
+      "count": 8
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "magikarp",
+      "rarity": "common",
+      "chance": 0.8
+    },
+    {
+      "pokemon": "poliwag",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "psyduck",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dratini",
+      "rarity": "legendary",
+      "chance": 0.25
+    }
+  ]
+}

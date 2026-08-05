@@ -1,0 +1,77 @@
+{
+  "name": "Beacon Pyramid",
+  "default_level": [
+    15,
+    53
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:beacon",
+      "count": 1
+    },
+    {
+      "key": "mineral",
+      "count": 4,
+      "any": [
+        "minecraft:iron_block",
+        "minecraft:gold_block",
+        "minecraft:diamond_block",
+        "minecraft:emerald_block",
+        "minecraft:netherite_block"
+      ]
+    },
+    {
+      "key": "glass",
+      "count": 1,
+      "any": [
+        "minecraft:glass",
+        "#minecraft:impermeable"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "carbink",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "riolu",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "absol",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "sableye",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "medicham",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "hawlucha",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "lucario",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "gallade",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "tag": "cobblemon:pokedex" },
+    { "item": "cobblemon:wide_lens" },
+    { "tag": "minecraft:saplings" }
+  ],
+  "result": {
+    "id": "pokopia:habitat_scanner",
+    "count": 1
+  }
+}

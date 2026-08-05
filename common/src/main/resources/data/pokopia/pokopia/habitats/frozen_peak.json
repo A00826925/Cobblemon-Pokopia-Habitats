@@ -1,0 +1,56 @@
+{
+  "name": "Frozen Peak",
+  "default_level": [
+    18,
+    34
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:ice_spikes"
+  ],
+  "blocks": [
+    {
+      "key": "hardice",
+      "count": 10,
+      "any": [
+        "minecraft:packed_ice",
+        "minecraft:blue_ice"
+      ]
+    },
+    {
+      "block": "minecraft:snow_block",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "bergmite",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "spheal",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "cryogonal",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "beartic",
+      "rarity": "rare",
+      "chance": 0.2
+    },
+    {
+      "pokemon": "glalie",
+      "rarity": "rare",
+      "chance": 0.2
+    }
+  ]
+}

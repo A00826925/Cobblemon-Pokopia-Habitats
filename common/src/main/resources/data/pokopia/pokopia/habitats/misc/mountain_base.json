@@ -1,0 +1,79 @@
+{
+  "name": "Mountain Base",
+  "default_level": [
+    8,
+    33
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "stone",
+      "count": 8,
+      "any": [
+        "minecraft:stone",
+        "minecraft:andesite",
+        "minecraft:cobblestone",
+        "minecraft:tuff"
+      ]
+    },
+    {
+      "key": "ore",
+      "count": 1,
+      "any": [
+        "minecraft:iron_ore",
+        "minecraft:coal_ore",
+        "minecraft:copper_ore",
+        "minecraft:raw_iron_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "geodude",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "roggenrola",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "aron",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "nosepass",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "sableye",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "graveler",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "boldore",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "lairon",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "larvitar",
+      "rarity": "ultra-rare",
+      "chance": 0.15
+    }
+  ]
+}

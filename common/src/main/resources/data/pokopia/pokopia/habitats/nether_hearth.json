@@ -1,0 +1,69 @@
+{
+  "name": "Nether Hearth",
+  "default_level": [
+    18,
+    34
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "blocks": [
+    {
+      "key": "nether",
+      "count": 8,
+      "any": [
+        "minecraft:netherrack",
+        "minecraft:nether_bricks",
+        "minecraft:magma_block",
+        "minecraft:soul_sand",
+        "minecraft:soul_soil"
+      ]
+    },
+    {
+      "key": "fire",
+      "count": 2,
+      "any": [
+        "minecraft:lava",
+        "minecraft:fire",
+        "minecraft:soul_fire"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "houndour",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "slugma",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "salandit",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "magby",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "litten",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "torkoal",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "turtonator",
+      "rarity": "rare",
+      "chance": 0.2
+    }
+  ]
+}

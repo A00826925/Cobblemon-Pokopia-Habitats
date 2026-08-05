@@ -1,0 +1,61 @@
+{
+  "name": "Map Room",
+  "default_level": [
+    10,
+    45
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "desk",
+      "count": 1,
+      "any": [
+        "minecraft:cartography_table",
+        "minecraft:lectern"
+      ]
+    },
+    {
+      "key": "shelf",
+      "count": 2,
+      "any": [
+        "minecraft:bookshelf",
+        "minecraft:chest",
+        "minecraft:barrel"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "unown",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "porygon",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "smeargle",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "girafarig",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dunsparce",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "porygon2",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

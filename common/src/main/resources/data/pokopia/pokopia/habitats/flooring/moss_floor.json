@@ -1,0 +1,25 @@
+{
+  "name": "Moss Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:moss_block",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sewaddle",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "oddish",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

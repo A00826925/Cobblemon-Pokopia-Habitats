@@ -1,0 +1,75 @@
+{
+  "name": "Fountain",
+  "default_level": [
+    5,
+    30
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "water",
+      "count": 4,
+      "any": [
+        "minecraft:water"
+      ]
+    },
+    {
+      "key": "stone",
+      "count": 4,
+      "any": [
+        "minecraft:stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:polished_andesite",
+        "minecraft:quartz_block"
+      ]
+    },
+    {
+      "key": "accent",
+      "count": 1,
+      "any": [
+        "minecraft:sea_lantern",
+        "minecraft:prismarine",
+        "minecraft:lantern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "poliwag",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "azurill",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "ducklett",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "marill",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "poliwhirl",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "azumarill",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "golduck",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

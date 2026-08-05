@@ -1,0 +1,80 @@
+{
+  "name": "Underwater Base",
+  "default_level": [
+    10,
+    41
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "glass",
+      "count": 4,
+      "any": [
+        "minecraft:glass",
+        "minecraft:tinted_glass",
+        "minecraft:blue_stained_glass",
+        "minecraft:light_blue_stained_glass"
+      ]
+    },
+    {
+      "key": "water",
+      "count": 6,
+      "any": [
+        "minecraft:water"
+      ]
+    },
+    {
+      "key": "sea",
+      "count": 2,
+      "any": [
+        "minecraft:prismarine",
+        "minecraft:prismarine_bricks",
+        "minecraft:sea_lantern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "chinchou",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "clauncher",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "finizen",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "corsola",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "lanturn",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "clawitzer",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "mantyke",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "mareanie",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

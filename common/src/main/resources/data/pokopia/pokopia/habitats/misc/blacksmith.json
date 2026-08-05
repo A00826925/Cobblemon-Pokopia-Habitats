@@ -1,0 +1,83 @@
+{
+  "name": "Blacksmith",
+  "default_level": [
+    8,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "forge",
+      "count": 2,
+      "any": [
+        "minecraft:furnace",
+        "minecraft:blast_furnace",
+        "minecraft:smithing_table",
+        "minecraft:anvil"
+      ]
+    },
+    {
+      "key": "metal",
+      "count": 2,
+      "any": [
+        "minecraft:iron_block",
+        "minecraft:chain",
+        "minecraft:iron_bars",
+        "minecraft:anvil"
+      ]
+    },
+    {
+      "key": "heat",
+      "count": 1,
+      "any": [
+        "minecraft:lava",
+        "minecraft:fire",
+        "minecraft:magma_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "aron",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "timburr",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "klink",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "tinkatink",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "gurdurr",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "klang",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "tinkatuff",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "aggron",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

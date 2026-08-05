@@ -1,0 +1,68 @@
+{
+  "name": "Flower Garden",
+  "default_level": [
+    5,
+    15
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:small_flowers",
+      "count": 6
+    },
+    {
+      "tag": "minecraft:tall_flowers",
+      "count": 2
+    },
+    {
+      "key": "hive",
+      "count": 1,
+      "any": [
+        "minecraft:bee_nest",
+        "minecraft:beehive"
+      ]
+    },
+    {
+      "key": "honey",
+      "count": 1,
+      "any": [
+        "minecraft:honey_block",
+        "minecraft:honeycomb_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "combee",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "cutiefly",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "flabebe",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "butterfree",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "beedrill",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "ribombee",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

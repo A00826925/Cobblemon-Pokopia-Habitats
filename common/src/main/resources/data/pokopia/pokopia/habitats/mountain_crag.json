@@ -1,0 +1,70 @@
+{
+  "name": "Mountain Crag",
+  "default_level": [
+    12,
+    26
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "#minecraft:is_mountain"
+  ],
+  "blocks": [
+    {
+      "key": "stone",
+      "count": 12,
+      "any": [
+        "minecraft:stone",
+        "minecraft:andesite",
+        "minecraft:gravel"
+      ]
+    },
+    {
+      "key": "peak",
+      "count": 3,
+      "any": [
+        "minecraft:snow",
+        "minecraft:calcite",
+        "minecraft:tuff"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "rockruff",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "rhyhorn",
+      "rarity": "common",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "aron",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "nosepass",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "skarmory",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "absol",
+      "rarity": "rare",
+      "chance": 0.2
+    },
+    {
+      "pokemon": "larvitar",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

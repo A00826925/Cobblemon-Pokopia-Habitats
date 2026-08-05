@@ -1,0 +1,25 @@
+{
+  "name": "Grass Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:grass_block",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sentret",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "deerling",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

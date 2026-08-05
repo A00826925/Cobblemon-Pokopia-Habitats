@@ -1,0 +1,86 @@
+{
+  "name": "Mine Entrance",
+  "default_level": [
+    8,
+    39
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "support",
+      "count": 4,
+      "any": [
+        "minecraft:oak_fence",
+        "minecraft:oak_planks",
+        "minecraft:cobblestone"
+      ]
+    },
+    {
+      "key": "ore",
+      "count": 4,
+      "any": [
+        "minecraft:coal_ore",
+        "minecraft:iron_ore",
+        "minecraft:stone",
+        "minecraft:cobblestone"
+      ]
+    },
+    {
+      "key": "light",
+      "count": 1,
+      "any": [
+        "minecraft:torch",
+        "minecraft:lantern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "geodude",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "diglett",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "roggenrola",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "drilbur",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "onix",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "graveler",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "boldore",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "gible",
+      "rarity": "rare",
+      "chance": 0.25
+    },
+    {
+      "pokemon": "larvitar",
+      "rarity": "ultra-rare",
+      "chance": 0.15
+    }
+  ]
+}

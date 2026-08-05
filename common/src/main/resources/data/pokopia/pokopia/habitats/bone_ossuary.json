@@ -1,0 +1,66 @@
+{
+  "name": "Bone Ossuary",
+  "default_level": [
+    10,
+    24
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:bone_block",
+      "count": 5
+    },
+    {
+      "block": "minecraft:sand",
+      "count": 6
+    },
+    {
+      "key": "relic",
+      "count": 1,
+      "any": [
+        "minecraft:suspicious_sand",
+        "minecraft:suspicious_gravel",
+        "minecraft:skeleton_skull"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "cubone",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "omanyte",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "kabuto",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "bagon",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "marowak",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "tyrunt",
+      "rarity": "rare",
+      "chance": 0.2
+    },
+    {
+      "pokemon": "aerodactyl",
+      "rarity": "rare",
+      "chance": 0.12
+    }
+  ]
+}

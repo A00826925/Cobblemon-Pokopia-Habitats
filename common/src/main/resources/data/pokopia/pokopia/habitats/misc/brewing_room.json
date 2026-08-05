@@ -1,0 +1,70 @@
+{
+  "name": "Brewing Room",
+  "default_level": [
+    6,
+    35
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "brew",
+      "count": 1,
+      "any": [
+        "minecraft:brewing_stand",
+        "minecraft:cauldron"
+      ]
+    },
+    {
+      "block": "minecraft:bookshelf",
+      "count": 2
+    },
+    {
+      "key": "flame",
+      "count": 1,
+      "any": [
+        "minecraft:soul_torch",
+        "minecraft:candle",
+        "minecraft:soul_lantern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "gastly",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "shuppet",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "litwick",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "sinistea",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "haunter",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "lampent",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "polteageist",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

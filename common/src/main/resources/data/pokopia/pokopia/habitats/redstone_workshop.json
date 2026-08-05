@@ -1,0 +1,66 @@
+{
+  "name": "Redstone Workshop",
+  "default_level": [
+    10,
+    24
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "power",
+      "count": 3,
+      "any": [
+        "minecraft:redstone_block",
+        "minecraft:redstone_lamp",
+        "minecraft:copper_block"
+      ]
+    },
+    {
+      "key": "component",
+      "count": 3,
+      "any": [
+        "minecraft:repeater",
+        "minecraft:comparator",
+        "minecraft:observer",
+        "minecraft:piston",
+        "minecraft:dispenser",
+        "minecraft:lever",
+        "minecraft:redstone_torch"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "magnemite",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "voltorb",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "klink",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "elekid",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "toxel",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "rotom",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

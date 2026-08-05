@@ -1,0 +1,25 @@
+{
+  "name": "Sand Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:sand",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sandshrew",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "sandile",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

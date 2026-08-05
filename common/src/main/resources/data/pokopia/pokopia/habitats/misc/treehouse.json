@@ -1,0 +1,76 @@
+{
+  "name": "Treehouse",
+  "default_level": [
+    5,
+    25
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:logs",
+      "count": 4
+    },
+    {
+      "tag": "minecraft:leaves",
+      "count": 6
+    },
+    {
+      "key": "platform",
+      "count": 2,
+      "any": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:oak_fence"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "caterpie",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "weedle",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "sewaddle",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "hoothoot",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "natu",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "butterfree",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "noctowl",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "leavanny",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "xatu",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

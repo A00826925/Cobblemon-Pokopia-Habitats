@@ -1,0 +1,34 @@
+{
+  "name": "Beach",
+  "default_level": [
+    5,
+    15
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:sand",
+      "count": 10
+    },
+    {
+      "block": "minecraft:water",
+      "count": 4
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "krabby",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "shellder",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "staryu",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

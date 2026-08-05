@@ -1,0 +1,67 @@
+{
+  "name": "Chicken Coop",
+  "default_level": [
+    5,
+    31
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "coop",
+      "count": 4,
+      "any": [
+        "minecraft:oak_planks",
+        "minecraft:oak_fence",
+        "minecraft:spruce_planks",
+        "minecraft:hay_block"
+      ]
+    },
+    {
+      "block": "minecraft:hay_block",
+      "count": 2
+    },
+    {
+      "block": "minecraft:composter",
+      "count": 1
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "fletchling",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "doduo",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "rufflet",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "fletchinder",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dodrio",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "combusken",
+      "rarity": "rare",
+      "chance": 0.25
+    },
+    {
+      "pokemon": "torchic",
+      "rarity": "ultra-rare",
+      "chance": 0.15
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Sugar Cane Farm",
+  "default_level": [
+    5,
+    30
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:sugar_cane",
+      "count": 4
+    },
+    {
+      "key": "water",
+      "count": 2,
+      "any": [
+        "minecraft:water"
+      ]
+    },
+    {
+      "key": "soil",
+      "count": 3,
+      "any": [
+        "minecraft:sand",
+        "minecraft:dirt",
+        "minecraft:grass_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "lotad",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "poliwag",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "ducklett",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "marill",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "lombre",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "azumarill",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "swanna",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

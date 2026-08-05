@@ -1,0 +1,57 @@
+{
+  "name": "Treasure Vault",
+  "default_level": [
+    10,
+    24
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "chest",
+      "count": 3,
+      "any": [
+        "minecraft:chest",
+        "minecraft:barrel",
+        "minecraft:trapped_chest"
+      ]
+    },
+    {
+      "key": "riches",
+      "count": 2,
+      "any": [
+        "minecraft:gold_block",
+        "minecraft:emerald_block",
+        "minecraft:copper_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "meowth",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "gimmighoul",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "sableye",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "klefki",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "carbink",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "End Base",
+  "default_level": [
+    12,
+    45
+  ],
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "blocks": [
+    {
+      "key": "end",
+      "count": 6,
+      "any": [
+        "minecraft:end_stone",
+        "minecraft:end_stone_bricks",
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar"
+      ]
+    },
+    {
+      "key": "light",
+      "count": 1,
+      "any": [
+        "minecraft:end_rod",
+        "minecraft:sea_lantern",
+        "minecraft:shroomlight"
+      ]
+    },
+    {
+      "key": "obsidian",
+      "count": 2,
+      "any": [
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "elgyem",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "cleffa",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "solrock",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "lunatone",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "beheeyem",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "clefairy",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "baltoy",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "claydol",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "clefable",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

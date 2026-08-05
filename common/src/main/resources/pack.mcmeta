@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Cobblemon Pokopia",
+    "pack_format": 34,
+    "supported_formats": [15, 100]
+  }
+}

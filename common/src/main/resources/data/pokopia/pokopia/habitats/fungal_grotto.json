@@ -1,0 +1,70 @@
+{
+  "name": "Fungal Grotto",
+  "default_level": [
+    16,
+    30
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "biomes": [
+    "minecraft:crimson_forest",
+    "minecraft:warped_forest"
+  ],
+  "blocks": [
+    {
+      "key": "nylium",
+      "count": 8,
+      "any": [
+        "minecraft:crimson_nylium",
+        "minecraft:warped_nylium",
+        "minecraft:crimson_stem",
+        "minecraft:warped_stem"
+      ]
+    },
+    {
+      "key": "fungus",
+      "count": 3,
+      "any": [
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus",
+        "minecraft:crimson_roots",
+        "minecraft:warped_roots",
+        "minecraft:nether_wart_block",
+        "minecraft:warped_wart_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "foongus",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "shroomish",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "gastly",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "koffing",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "morelull",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "amoonguss",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

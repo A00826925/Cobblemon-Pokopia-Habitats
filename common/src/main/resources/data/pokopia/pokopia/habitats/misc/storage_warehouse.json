@@ -1,0 +1,61 @@
+{
+  "name": "Storage Warehouse",
+  "default_level": [
+    10,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "storage",
+      "count": 6,
+      "any": [
+        "minecraft:chest",
+        "minecraft:barrel",
+        "minecraft:shulker_box"
+      ]
+    },
+    {
+      "key": "crate",
+      "count": 2,
+      "any": [
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "meowth",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "greedent",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "dedenne",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "pachirisu",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "persian",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "gimmighoul",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

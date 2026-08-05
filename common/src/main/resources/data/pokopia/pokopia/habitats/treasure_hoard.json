@@ -1,0 +1,32 @@
+{
+  "name": "Treasure Hoard",
+  "default_level": [
+    15,
+    30
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:gold_block",
+      "count": 2
+    }
+  ],
+  "held_items": [
+    {
+      "key": "treasure",
+      "count": 1,
+      "any": ["minecraft:diamond"]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "meowth",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "persian",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

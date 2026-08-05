@@ -1,0 +1,64 @@
+{
+  "name": "River Bank",
+  "default_level": [
+    5,
+    15
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "#minecraft:is_river"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:water",
+      "count": 6
+    },
+    {
+      "key": "bank",
+      "count": 5,
+      "any": [
+        "minecraft:gravel",
+        "minecraft:clay",
+        "minecraft:sand"
+      ]
+    },
+    {
+      "block": "minecraft:sugar_cane",
+      "count": 2
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "psyduck",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "poliwag",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "goldeen",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "buizel",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "marill",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "barboach",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

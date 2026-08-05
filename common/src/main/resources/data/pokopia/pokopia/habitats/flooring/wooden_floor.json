@@ -1,0 +1,25 @@
+{
+  "name": "Wooden Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:planks",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "bidoof",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "rattata",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

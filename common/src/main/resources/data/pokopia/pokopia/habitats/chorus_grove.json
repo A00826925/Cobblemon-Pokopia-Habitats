@@ -1,0 +1,56 @@
+{
+  "name": "Chorus Grove",
+  "default_level": [
+    20,
+    38
+  ],
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "biomes": [
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:end_barrens"
+  ],
+  "blocks": [
+    {
+      "key": "chorus",
+      "count": 6,
+      "any": [
+        "minecraft:chorus_plant",
+        "minecraft:chorus_flower"
+      ]
+    },
+    {
+      "block": "minecraft:end_stone",
+      "count": 8
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "solrock",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "lunatone",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "elgyem",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "cottonee",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "sigilyph",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

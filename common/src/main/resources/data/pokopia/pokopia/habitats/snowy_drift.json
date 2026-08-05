@@ -1,0 +1,78 @@
+{
+  "name": "Snowy Drift",
+  "default_level": [
+    10,
+    24
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:grove",
+    "minecraft:ice_spikes"
+  ],
+  "blocks": [
+    {
+      "key": "snow",
+      "count": 12,
+      "any": [
+        "minecraft:snow_block",
+        "minecraft:snow",
+        "minecraft:powder_snow"
+      ]
+    },
+    {
+      "key": "ice",
+      "count": 4,
+      "any": [
+        "minecraft:ice",
+        "minecraft:packed_ice"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "swinub",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "snorunt",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "snover",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "sneasel",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "cubchoo",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "vanillite",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "snom",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "delibird",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Animal Barn",
+  "default_level": [
+    14,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:hay_block",
+      "count": 3
+    },
+    {
+      "key": "pen",
+      "count": 4,
+      "any": [
+        "#minecraft:wooden_fences"
+      ]
+    },
+    {
+      "key": "feed",
+      "count": 1,
+      "any": [
+        "minecraft:wheat",
+        "minecraft:water",
+        "minecraft:composter"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "lechonk",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "wooloo",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "miltank",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "tauros",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "mudbray",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "dubwool",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "mudsdale",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "gogoat",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "oinkologne",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

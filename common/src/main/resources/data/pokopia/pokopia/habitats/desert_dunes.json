@@ -1,0 +1,69 @@
+{
+  "name": "Desert Dunes",
+  "default_level": [
+    8,
+    22
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:desert"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:sand",
+      "count": 18
+    },
+    {
+      "key": "dry",
+      "count": 1,
+      "any": [
+        "minecraft:dead_bush",
+        "minecraft:cactus"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sandshrew",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "trapinch",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "sandile",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "cacnea",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "hippopotas",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "darumaka",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "helioptile",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "vulpix",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

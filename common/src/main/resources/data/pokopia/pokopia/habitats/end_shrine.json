@@ -1,0 +1,64 @@
+{
+  "name": "End Shrine",
+  "default_level": [
+    22,
+    40
+  ],
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "blocks": [
+    {
+      "key": "endstuff",
+      "count": 8,
+      "any": [
+        "minecraft:end_stone",
+        "minecraft:end_stone_bricks",
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar",
+        "minecraft:obsidian"
+      ]
+    },
+    {
+      "key": "crystal",
+      "count": 1,
+      "any": [
+        "minecraft:end_rod",
+        "minecraft:dragon_head",
+        "minecraft:chorus_flower"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "elgyem",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "beldum",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "baltoy",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "golett",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "deino",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "metang",
+      "rarity": "rare",
+      "chance": 0.2
+    }
+  ]
+}

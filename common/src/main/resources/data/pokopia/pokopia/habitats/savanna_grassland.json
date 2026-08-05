@@ -1,0 +1,63 @@
+{
+  "name": "Savanna Grassland",
+  "default_level": [
+    8,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "#minecraft:is_savanna"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:grass_block",
+      "count": 8
+    },
+    {
+      "tag": "minecraft:tall_flowers",
+      "count": 1
+    },
+    {
+      "key": "savtree",
+      "count": 3,
+      "any": [
+        "minecraft:acacia_log",
+        "minecraft:acacia_leaves"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "girafarig",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "blitzle",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "yamper",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "bouffalant",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "combee",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "zebstrika",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

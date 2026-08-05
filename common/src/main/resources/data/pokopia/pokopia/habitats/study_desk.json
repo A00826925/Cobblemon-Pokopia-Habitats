@@ -1,0 +1,16 @@
+{
+  "name": "Study Desk",
+  "blocks": [
+    { "block": "handcrafted:oak_chair", "count": 1 },
+	{ "block": "handcrafted:oak_table", "count": 2 },
+	{ "block": "minecraft:bookshelf", "count": 9 }
+  ],
+  "held_items": [
+    { "item": "minecraft:book", "count": 1 }
+  ],
+  "spawns": [
+    { "pokemon": "ralts", "rarity": "common", "chance": 0.7 },
+	{ "pokemon": "tuligant", "rarity": "common", "chance": 0.7 },
+	{ "pokemon": "kirlia", "rarity": "uncommon", "chance": 0.7 }
+  ]
+}

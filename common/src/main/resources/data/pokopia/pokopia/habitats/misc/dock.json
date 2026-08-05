@@ -1,0 +1,69 @@
+{
+  "name": "Dock",
+  "default_level": [
+    8,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:wooden_slabs",
+      "count": 5
+    },
+    {
+      "tag": "minecraft:wooden_fences",
+      "count": 2
+    },
+    {
+      "key": "water",
+      "count": 3,
+      "any": [
+        "minecraft:water"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "wingull",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "magikarp",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "buizel",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "finizen",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "pelipper",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "floatzel",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "wailmer",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "gyarados",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Lava Farm",
+  "default_level": [
+    10,
+    46
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:lava",
+      "count": 4
+    },
+    {
+      "key": "volcanic",
+      "count": 4,
+      "any": [
+        "minecraft:magma_block",
+        "minecraft:basalt",
+        "minecraft:blackstone",
+        "minecraft:obsidian"
+      ]
+    },
+    {
+      "key": "heat",
+      "count": 1,
+      "any": [
+        "minecraft:fire",
+        "minecraft:netherrack"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "slugma",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "magby",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "numel",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "heatmor",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "magcargo",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "magmar",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "camerupt",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "torkoal",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

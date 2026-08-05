@@ -1,0 +1,25 @@
+{
+  "name": "Gravel Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:gravel",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "drilbur",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "meowth",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

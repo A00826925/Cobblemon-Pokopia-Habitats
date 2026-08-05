@@ -1,0 +1,26 @@
+{
+  "name": "Jungle Grove",
+  "default_level": [8, 20],
+  "biomes": ["#minecraft:is_jungle"],
+  "blocks": [
+    { "block": "minecraft:jungle_log", "count": 4 },
+    { "block": "minecraft:jungle_leaves", "count": 8 },
+    { "block": "minecraft:vine", "count": 3 }
+  ],
+  "spawns": [
+    { "pokemon": "aipom", "rarity": "common", "chance": 0.7 },
+    { "pokemon": "tangela", "rarity": "uncommon", "chance": 0.45 },
+    {
+      "pokemon": "pansage",
+      "rarity": "rare",
+      "chance": 0.3,
+      "biomes": ["#minecraft:is_jungle"]
+    },
+    {
+      "pokemon": "tropius",
+      "rarity": "rare",
+      "chance": 0.25,
+      "biomes": ["minecraft:bamboo_jungle"]
+    }
+  ]
+}

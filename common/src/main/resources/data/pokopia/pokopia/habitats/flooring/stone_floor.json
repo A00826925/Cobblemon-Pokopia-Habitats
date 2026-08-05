@@ -1,0 +1,25 @@
+{
+  "name": "Stone Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:base_stone_overworld",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "geodude",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "roggenrola",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

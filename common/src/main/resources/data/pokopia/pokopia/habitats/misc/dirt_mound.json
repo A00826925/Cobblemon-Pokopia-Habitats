@@ -1,0 +1,74 @@
+{
+  "name": "Dirt Mound",
+  "default_level": [
+    3,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "dirt",
+      "count": 6,
+      "any": [
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:rooted_dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol"
+      ]
+    },
+    {
+      "key": "sandy",
+      "count": 2,
+      "any": [
+        "minecraft:sand",
+        "minecraft:red_sand",
+        "minecraft:gravel"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "diglett",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "sandshrew",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "rattata",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "wooper",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "dugtrio",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "sandslash",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "quagsire",
+      "rarity": "uncommon",
+      "chance": 0.35
+    },
+    {
+      "pokemon": "clodsire",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

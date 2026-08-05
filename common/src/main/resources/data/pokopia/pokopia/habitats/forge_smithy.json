@@ -1,0 +1,75 @@
+{
+  "name": "Forge Smithy",
+  "default_level": [
+    12,
+    26
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:anvil",
+      "count": 1
+    },
+    {
+      "key": "furnace",
+      "count": 2,
+      "any": [
+        "minecraft:furnace",
+        "minecraft:blast_furnace",
+        "minecraft:smithing_table"
+      ]
+    },
+    {
+      "key": "metal",
+      "count": 3,
+      "any": [
+        "minecraft:iron_block",
+        "minecraft:copper_block",
+        "minecraft:anvil"
+      ]
+    },
+    {
+      "key": "heat",
+      "count": 1,
+      "any": [
+        "minecraft:lava",
+        "minecraft:magma_block",
+        "minecraft:fire"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "magby",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "aron",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "magnemite",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "klink",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "honedge",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "togedemaru",
+      "rarity": "rare",
+      "chance": 0.2
+    }
+  ]
+}

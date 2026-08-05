@@ -1,0 +1,59 @@
+{
+  "name": "Cherry Orchard",
+  "default_level": [
+    6,
+    16
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:cherry_grove"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:cherry_log",
+      "count": 4
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 8
+    },
+    {
+      "block": "minecraft:pink_petals",
+      "count": 3
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "cherubi",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "cutiefly",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "comfey",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "flabebe",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "cherrim",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "ribombee",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

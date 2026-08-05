@@ -1,0 +1,66 @@
+{
+  "name": "Barn Pasture",
+  "default_level": [
+    5,
+    16
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:hay_block",
+      "count": 5
+    },
+    {
+      "key": "pen",
+      "count": 3,
+      "any": [
+        "minecraft:oak_fence",
+        "minecraft:spruce_fence",
+        "minecraft:oak_planks",
+        "minecraft:composter"
+      ]
+    },
+    {
+      "key": "feed",
+      "count": 1,
+      "any": [
+        "minecraft:wheat",
+        "minecraft:water"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "mareep",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "wooloo",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "miltank",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "tauros",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "ponyta",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "bouffalant",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

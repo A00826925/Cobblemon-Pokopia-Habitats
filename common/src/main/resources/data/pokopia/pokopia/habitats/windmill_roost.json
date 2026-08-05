@@ -1,0 +1,67 @@
+{
+  "name": "Windmill Roost",
+  "default_level": [
+    6,
+    18
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "frame",
+      "count": 4,
+      "any": [
+        "minecraft:oak_planks",
+        "minecraft:oak_fence",
+        "minecraft:oak_log",
+        "minecraft:white_wool"
+      ]
+    },
+    {
+      "block": "minecraft:hay_block",
+      "count": 3
+    },
+    {
+      "tag": "minecraft:wool",
+      "count": 2
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "pidgey",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "starly",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "pidove",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "swablu",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "fletchling",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "rufflet",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "hoothoot",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

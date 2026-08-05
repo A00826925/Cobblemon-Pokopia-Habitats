@@ -1,0 +1,59 @@
+{
+  "name": "Dripstone Cavern",
+  "default_level": [
+    10,
+    24
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:dripstone_caves"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:dripstone_block",
+      "count": 8
+    },
+    {
+      "block": "minecraft:pointed_dripstone",
+      "count": 3
+    },
+    {
+      "block": "minecraft:stone",
+      "count": 8
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "geodude",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "diglett",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "dwebble",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "larvitar",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "onix",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "gible",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

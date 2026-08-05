@@ -1,0 +1,55 @@
+{
+  "name": "Coral Reef",
+  "default_level": [
+    8,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:warm_ocean"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:water",
+      "count": 8
+    },
+    {
+      "tag": "minecraft:coral_blocks",
+      "count": 4
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "corsola",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "mareanie",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "luvdisc",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "staryu",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "wishiwashi",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "tropius",
+      "rarity": "rare",
+      "chance": 0.15
+    }
+  ]
+}

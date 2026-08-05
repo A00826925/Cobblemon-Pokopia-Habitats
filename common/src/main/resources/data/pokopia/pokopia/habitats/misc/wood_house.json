@@ -1,0 +1,68 @@
+{
+  "name": "Wood House",
+  "default_level": [
+    5,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:planks",
+      "count": 4
+    },
+    {
+      "block": "minecraft:crafting_table",
+      "count": 1
+    },
+    {
+      "key": "door",
+      "count": 1,
+      "any": [
+        "minecraft:oak_door",
+        "minecraft:spruce_door",
+        "minecraft:birch_door",
+        "minecraft:dark_oak_door",
+        "minecraft:jungle_door"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "sentret",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "bidoof",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "skwovet",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "pidove",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "eevee",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "furret",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "bibarel",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

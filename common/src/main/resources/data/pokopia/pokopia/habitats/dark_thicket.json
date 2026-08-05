@@ -1,0 +1,70 @@
+{
+  "name": "Dark Thicket",
+  "default_level": [
+    8,
+    20
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:dark_oak_log",
+      "count": 4
+    },
+    {
+      "block": "minecraft:dark_oak_leaves",
+      "count": 8
+    },
+    {
+      "key": "fungus",
+      "count": 2,
+      "any": [
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom_block",
+        "minecraft:brown_mushroom_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "spinarak",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "venonat",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "murkrow",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "phantump",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "morelull",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "pumpkaboo",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "shroomish",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}

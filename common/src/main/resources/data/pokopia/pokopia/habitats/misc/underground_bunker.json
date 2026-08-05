@@ -1,0 +1,88 @@
+{
+  "name": "Underground Bunker",
+  "default_level": [
+    8,
+    33
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "walls",
+      "count": 8,
+      "any": [
+        "minecraft:stone_bricks",
+        "minecraft:cobblestone",
+        "minecraft:deepslate",
+        "minecraft:deepslate_bricks",
+        "minecraft:polished_deepslate"
+      ]
+    },
+    {
+      "block": "minecraft:iron_bars",
+      "count": 2
+    },
+    {
+      "key": "light",
+      "count": 1,
+      "any": [
+        "minecraft:torch",
+        "minecraft:lantern",
+        "minecraft:soul_lantern"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "zubat",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "woobat",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "drilbur",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "golbat",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "swoobat",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "carbink",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "mawile",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "excadrill",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "gible",
+      "rarity": "rare",
+      "chance": 0.25
+    },
+    {
+      "pokemon": "crobat",
+      "rarity": "rare",
+      "chance": 0.2
+    }
+  ]
+}

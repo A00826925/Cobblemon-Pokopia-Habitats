@@ -1,0 +1,82 @@
+{
+  "name": "Garden",
+  "default_level": [
+    5,
+    30
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:small_flowers",
+      "count": 5
+    },
+    {
+      "key": "green",
+      "count": 3,
+      "any": [
+        "minecraft:grass_block",
+        "minecraft:moss_block",
+        "minecraft:leaves"
+      ]
+    },
+    {
+      "key": "decor",
+      "count": 2,
+      "any": [
+        "minecraft:flower_pot",
+        "minecraft:oak_fence",
+        "minecraft:pink_petals",
+        "minecraft:azalea"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "flabebe",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "budew",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "petilil",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "roselia",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "comfey",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "floette",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "lilligant",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "roserade",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "florges",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

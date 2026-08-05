@@ -1,0 +1,86 @@
+{
+  "name": "Nether Portal (Nether Side)",
+  "default_level": [
+    18,
+    45
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:obsidian",
+      "count": 6
+    },
+    {
+      "key": "fire",
+      "count": 1,
+      "any": [
+        "minecraft:fire",
+        "minecraft:soul_fire",
+        "minecraft:lava"
+      ]
+    },
+    {
+      "key": "crying",
+      "count": 2,
+      "any": [
+        "minecraft:crying_obsidian",
+        "minecraft:netherrack",
+        "minecraft:magma_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "houndour",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "litwick",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "salandit",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "impidimp",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "charcadet",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "houndoom",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "salazzle",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "morgrem",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "armarouge",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "ceruledge",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

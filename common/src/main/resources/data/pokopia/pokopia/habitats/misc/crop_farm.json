@@ -1,0 +1,76 @@
+{
+  "name": "Crop Farm",
+  "default_level": [
+    3,
+    28
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "crops",
+      "count": 4,
+      "any": [
+        "minecraft:carrots",
+        "minecraft:potatoes",
+        "minecraft:beetroots",
+        "minecraft:pumpkin_stem",
+        "minecraft:melon_stem"
+      ]
+    },
+    {
+      "block": "minecraft:farmland",
+      "count": 4
+    },
+    {
+      "key": "water",
+      "count": 1,
+      "any": [
+        "minecraft:water"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "bounsweet",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "oddish",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "sunkern",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "smoliv",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "steenee",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "gloom",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "dolliv",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "sunflora",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

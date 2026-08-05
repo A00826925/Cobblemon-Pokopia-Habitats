@@ -1,0 +1,28 @@
+{
+  "name": "Rocky Outcrop",
+  "default_level": [
+    10,
+    25
+  ],
+  "blocks": [
+    { "tag": "minecraft:base_stone_overworld", "count": 12 },
+    { "key": "open_air", "count": 30, "any": ["minecraft:air", "minecraft:cave_air"] }
+  ],
+  "spawns": [
+    {
+      "pokemon": "geodude",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "machop",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "onix",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

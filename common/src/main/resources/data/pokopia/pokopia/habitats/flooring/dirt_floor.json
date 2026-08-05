@@ -1,0 +1,25 @@
+{
+  "name": "Dirt Floor",
+  "default_level": [
+    5,
+    25
+  ],
+  "blocks": [
+    {
+      "tag": "minecraft:dirt",
+      "count": 6
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "diglett",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "wooper",
+      "rarity": "common",
+      "chance": 0.55
+    }
+  ]
+}

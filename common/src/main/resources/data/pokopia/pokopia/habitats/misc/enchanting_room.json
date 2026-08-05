@@ -1,0 +1,71 @@
+{
+  "name": "Enchanting Room",
+  "default_level": [
+    6,
+    32
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:enchanting_table",
+      "count": 1
+    },
+    {
+      "block": "minecraft:bookshelf",
+      "count": 4
+    },
+    {
+      "key": "candle",
+      "count": 1,
+      "any": [
+        "#minecraft:candles",
+        "minecraft:soul_lantern",
+        "minecraft:amethyst_block"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "gothita",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "hatenna",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "elgyem",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "abra",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "ralts",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "beheeyem",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "kadabra",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "gardevoir",
+      "rarity": "rare",
+      "chance": 0.2
+    }
+  ]
+}

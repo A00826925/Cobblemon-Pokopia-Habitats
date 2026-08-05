@@ -1,0 +1,72 @@
+{
+  "name": "Floating Island",
+  "default_level": [
+    6,
+    35
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "cloud",
+      "count": 6,
+      "any": [
+        "minecraft:white_wool",
+        "minecraft:white_concrete",
+        "minecraft:snow_block",
+        "minecraft:quartz_block"
+      ]
+    },
+    {
+      "key": "ground",
+      "count": 3,
+      "any": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:moss_block"
+      ]
+    },
+    {
+      "tag": "minecraft:small_flowers",
+      "count": 1
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "swablu",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "drifloon",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "altaria",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "togetic",
+      "rarity": "uncommon",
+      "chance": 0.45
+    },
+    {
+      "pokemon": "drifblim",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "swanna",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "togekiss",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

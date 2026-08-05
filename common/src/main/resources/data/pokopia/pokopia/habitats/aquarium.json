@@ -1,0 +1,59 @@
+{
+  "name": "Aquarium",
+  "default_level": [
+    6,
+    18
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:water",
+      "count": 8
+    },
+    {
+      "key": "glassy",
+      "count": 4,
+      "any": [
+        "minecraft:prismarine",
+        "minecraft:prismarine_bricks",
+        "minecraft:dark_prismarine",
+        "minecraft:sea_lantern",
+        "minecraft:glass"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "magikarp",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "goldeen",
+      "rarity": "common",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "staryu",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "feebas",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "frillish",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "basculin",
+      "rarity": "rare",
+      "chance": 0.3
+    }
+  ]
+}

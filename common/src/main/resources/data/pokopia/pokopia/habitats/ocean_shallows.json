@@ -1,0 +1,67 @@
+{
+  "name": "Ocean Shallows",
+  "default_level": [
+    6,
+    18
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": [
+    "#minecraft:is_ocean"
+  ],
+  "blocks": [
+    {
+      "block": "minecraft:water",
+      "count": 12
+    },
+    {
+      "key": "seafloor",
+      "count": 4,
+      "any": [
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass",
+        "minecraft:sand"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "tentacool",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "wingull",
+      "rarity": "common",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "finneon",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "wailmer",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "mantyke",
+      "rarity": "rare",
+      "chance": 0.3
+    },
+    {
+      "pokemon": "frillish",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "clamperl",
+      "rarity": "rare",
+      "chance": 0.25
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Bridge",
+  "default_level": [
+    10,
+    40
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "blocks": [
+    {
+      "key": "deck",
+      "count": 5,
+      "any": [
+        "#minecraft:wooden_slabs",
+        "#minecraft:slabs",
+        "#minecraft:planks",
+		"#minecraft:stone_bricks"
+      ]
+    },
+    {
+      "key": "rail",
+      "count": 2,
+      "any": [
+        "#minecraft:wooden_fences",
+        "#minecraft:walls"
+      ]
+    },
+    {
+      "key": "water",
+      "count": 3,
+      "any": [
+        "minecraft:water"
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "pokemon": "psyduck",
+      "rarity": "common",
+      "chance": 0.7
+    },
+    {
+      "pokemon": "ducklett",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "wingull",
+      "rarity": "common",
+      "chance": 0.6
+    },
+    {
+      "pokemon": "bibarel",
+      "rarity": "uncommon",
+      "chance": 0.5
+    },
+    {
+      "pokemon": "golduck",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "swanna",
+      "rarity": "uncommon",
+      "chance": 0.4
+    },
+    {
+      "pokemon": "pelipper",
+      "rarity": "uncommon",
+      "chance": 0.4
+    }
+  ]
+}
